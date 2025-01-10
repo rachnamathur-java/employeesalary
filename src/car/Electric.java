@@ -1,17 +1,17 @@
 package car;
 
 public class Electric extends Car {
+    public Electric(String brand, String model, double price) {
+        super(brand, model, price);
+    }
 
-    double length;
-    double width;
-
-    public Electric(double length, double width) {
-        this.length = length;
-        this.width = width;
+    public Electric() {
     }
 
     @Override
-    public double getArea() {
-        return length * width;
+    public void printDetails(String brand, String model, double price) {
+        super.printDetails(brand, model, price);
     }
 }
+
+

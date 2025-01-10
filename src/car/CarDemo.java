@@ -2,9 +2,8 @@ package car;
 
 public class CarDemo {
     public static void main(String[] args) {
+        CarService carService = new CarService();
 
-       Car diesel = new Diesel("maruti", "suv",3456.00);
-       diesel.printDetails("maruti", "suv",3456.00);
-
+        carService.getDetails();
     }
 }

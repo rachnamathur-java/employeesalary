@@ -6,6 +6,9 @@ public class Diesel extends Car {
         super(brand, model, price);
     }
 
+    public Diesel() {
+    }
+
     @Override
     public void printDetails(String brand, String model, double price) {
         super.printDetails(brand, model, price);
