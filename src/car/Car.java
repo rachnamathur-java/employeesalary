@@ -15,10 +15,12 @@ public class Car {
     }
 
     public void printDetails(String brand, String model, double price){
+        System.out.println("***** Rachna ********");
        System.out.println("Brand Name  -->  "+brand);
        System.out.println("Model  -->  "+model);
        System.out.println("Price  -->  "+price);
         System.out.println("*****************my_jira_2**************");
+
    }
 
 }
