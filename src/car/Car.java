@@ -18,6 +18,7 @@ public class Car {
        System.out.println("Brand Name  -->  "+brand);
        System.out.println("Model  -->  "+model);
        System.out.println("Price  -->  "+price);
+        System.out.println("*****************my_jira_1**************");
    }
 
 }
